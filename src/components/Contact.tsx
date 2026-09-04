@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MapPin, Clock, MessageCircle, ExternalLink } from 'lucide-react';
+import { MapPin, Clock, MessageCircle } from 'lucide-react';
 import { STUDIO_INFO } from '../data/config';
 
 export default function Contact() {

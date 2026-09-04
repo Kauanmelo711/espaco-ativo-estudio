@@ -1,5 +1,5 @@
 import { STUDIO_INFO } from '../data/config';
-import { MapPin, MessageCircle, ExternalLink, } from 'lucide-react';
+import { MapPin, MessageCircle, } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

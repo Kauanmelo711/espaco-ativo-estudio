@@ -1,4 +1,4 @@
-import { Activity, Dumbbell, Flower, Users, Sparkles, Target, TrendingUp } from 'lucide-react';
+import { Dumbbell, Flower, Users, Sparkles, Target, TrendingUp } from 'lucide-react';
 
 export const STUDIO_INFO = {
   name: "Espaço Ativo Studio",
@@ -11,12 +11,7 @@ export const STUDIO_INFO = {
     return `https://wa.me/${this.whatsappNumber}?text=${encodeURIComponent(this.whatsappMsg)}`;
   },
   services: [
-    {
-      id: 1,
-      title: "Treinamento Funcional",
-      desc: "Aulas dinâmicas focadas em mobilidade, ganho de força e condicionamento físico geral.",
-      icon: Activity
-    },
+    
     {
       id: 2,
       title: "Musculação",

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { STUDIO_INFO } from '../data/config';
 import { ArrowRight } from 'lucide-react';
-import aparelhosImg from '../assets/images/aparelhos.jpeg';
+import aparelhosImg from '../assets/images/aparelhos__01.png';
 
 export default function Hero() {
   return (

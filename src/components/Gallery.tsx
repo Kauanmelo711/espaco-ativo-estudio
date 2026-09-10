@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
-import musculacaoImg from '../assets/images/musculacao.jpeg';
-import cadeiraImg from '../assets/images/cadeira extensora.jpeg';
-import esopacoImg from '../assets/images/espaco.jpeg';
-import espacoCadeiraImg from '../assets/images/espacocaadeira.jpeg';
+import musculacaoImg from '../assets/images/espacopvaranda.png';
+import cadeiraImg from '../assets/images/Bicicleta.png';
+import esopacoImg from '../assets/images/aparelhos__01.png';
+import espacoCadeiraImg from '../assets/images/espaco_btb.png';
 
 export default function Gallery() {
   const photos = [

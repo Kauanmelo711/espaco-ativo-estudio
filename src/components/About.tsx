@@ -62,7 +62,6 @@ export default function About() {
               })}
             </div>
 
-            {/* Bloco de Gympass e TotalPass */}
             <div className="mt-6 bg-zinc-900/50 border border-zinc-800/50 p-5 rounded-2xl">
               <p className="text-zinc-400 text-xs uppercase tracking-wider font-semibold mb-3">
                 Parceiros e Benefícios Aceitos

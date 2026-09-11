@@ -52,7 +52,6 @@ export default function Services() {
                 </div>
 
                 <div className="p-8 relative flex-1 flex flex-col justify-between">
-                  {/* Ícone: se for hipopressivo, vira um botão clicável que abre o modal */}
                   {isHipopressivo ? (
                     <button 
                       onClick={() => setIsModalOpen(true)}
@@ -88,7 +87,6 @@ export default function Services() {
         </div>
       </div>
 
-      {/* Modal com Animação */}
       <AnimatePresence>
         {isModalOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
@@ -98,7 +96,6 @@ export default function Services() {
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               className="bg-zinc-950 border border-zinc-800 rounded-3xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-8 relative shadow-2xl text-zinc-300"
             >
-              {/* Botão de Fechar */}
               <button 
                 onClick={() => setIsModalOpen(false)}
                 className="absolute top-6 right-6 bg-zinc-900 p-2 rounded-full text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors cursor-pointer"

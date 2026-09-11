@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Target, Users, Heart, ShieldCheck } from 'lucide-react';
+import { Target, Users, Heart, ShieldCheck, CheckCircle2 } from 'lucide-react';
 import personalImg from '../assets/images/ge_personal.png';
 
 export default function About() {
@@ -61,6 +61,30 @@ export default function About() {
                 )
               })}
             </div>
+
+            {/* Bloco de Gympass e TotalPass */}
+            <div className="mt-6 bg-zinc-900/50 border border-zinc-800/50 p-5 rounded-2xl">
+              <p className="text-zinc-400 text-xs uppercase tracking-wider font-semibold mb-3">
+                Parceiros e Benefícios Aceitos
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+                <div className="flex items-start gap-2.5">
+                  <CheckCircle2 size={18} className="text-emerald-500 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="text-white font-bold block">Gympass</span>
+                    <span className="text-zinc-400 text-xs">A partir do plano <strong className="text-emerald-400">Silver+</strong></span>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2.5">
+                  <CheckCircle2 size={18} className="text-emerald-500 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="text-white font-bold block">TotalPass</span>
+                    <span className="text-zinc-400 text-xs">A partir do plano <strong className="text-emerald-400">TP3</strong></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </motion.div>
 
         </div>

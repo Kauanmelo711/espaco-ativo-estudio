@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
 import { STUDIO_INFO } from '../data/config';
+import  halter from '../assets/images/halter.png'
 
 export default function CTA() {
   return (
     <section className="relative py-32 bg-zinc-900 flex items-center justify-center overflow-hidden border-t border-zinc-800">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-fixed opacity-20"
-        style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop")' }}
+        style={{ backgroundImage: `url(${halter})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-transparent" />
       
